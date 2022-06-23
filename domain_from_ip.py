@@ -1,8 +1,14 @@
+'''
+Find the domain name using an IP address
 
-# Domain name from IP address
-# accepts str representation of IP address
-# returns str representation of Domain name
-# Original Challenge found here: https://www.codecademy.com/resources/blog/advanced-python-code-challenges/
+For this Python challenge, you'll want to import the Python socket library.
+That’s the only hint. Write a function that accepts an IP address, makes a DNS
+request, and returns the domain name that maps to that IP address using PTR DNS
+records.
+
+Original Challenge found here: 
+https://www.codecademy.com/resources/blog/advanced-python-code-challenges/
+'''
 
 import socket
 
