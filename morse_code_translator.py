@@ -19,4 +19,5 @@ MORSE_CODE = {
 def morse_code(english:str):
     return ''.join([MORSE_CODE.get(x.upper(), '') for x in english])
 
-print(morse_code('Hello! My name is Heather!'))
+if __name__ == '__main__'"
+    print(morse_code('Hello! My name is Heather!'))
