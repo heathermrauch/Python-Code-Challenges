@@ -1,8 +1,14 @@
+'''
+Convert a decimal to a hex
 
-# Convert a decimal to a hex
-# accepts a string of ASCII characters
-# returns a space delimited lower case string of hexadecimal characters
-# Original Challenge found here: https://www.codecademy.com/resources/blog/advanced-python-code-challenges/
+For this challenge, you need to write a function in Python that accepts a
+string of ASCII characters. It should return each character's value as a
+hexadecimal string. Separate each byte by a space, and return all alpha
+hexadecimal characters as lowercase.
+
+Original Challenge found here:
+https://www.codecademy.com/resources/blog/advanced-python-code-challenges/
+'''
 
 import codecs
 
@@ -13,7 +19,8 @@ def decimal_to_hex(characters:str):
     Required parameters:
     characters (str): the decimal string to convert
     '''
-    return ' '.join([codecs.encode(a, 'utf-8').hex() for a in characters.lower()])
+    return ' '.join([codecs.encode(a, 'utf-8').hex() 
+                        for a in characters.lower()])
 
 
 if __name__ == '__main__':
