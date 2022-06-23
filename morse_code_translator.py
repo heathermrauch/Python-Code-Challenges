@@ -9,7 +9,8 @@ The string can also contain any special characters handled in Morse code,
 including commas, colons, apostrophes, periods, exclamation marks, and question
 marks. The function should return the Morse code equivalent for the string.
 
-Original Challenge found here: https://www.codecademy.com/resources/blog/advanced-python-code-challenges/
+Original Challenge found here:
+https://www.codecademy.com/resources/blog/advanced-python-code-challenges/
 '''
 
 MORSE_CODE = { 
