@@ -54,7 +54,7 @@ def balanced_bst(a):
     if len(bottom) > 0:
         tree.left = balanced_bst(bottom)
     if len(top) > 0:
-        tree.right = balanced_bst(top[0:])
+        tree.right = balanced_bst(top)
     return tree
 
 
